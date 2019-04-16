@@ -24,8 +24,8 @@ public class ConexionConsultas : MonoBehaviour {
 
     public void OpenDB(string p)
     {
-        //connection = "URI =file:" + Application.dataPath + "/StreamingAssets/" + "Oficina.db; Version=3; Password=Bancolombia";
-        connection = "URI =file:" + Application.dataPath + "/StreamingAssets/" + "Oficina.db;Version=3;Password=Bancolombia2019.";
+        //connection = "URI =file:" + Application.dataPath + "/StreamingAssets/" + "Oficina.db; Version=3; Password=cualquierpass";
+        connection = "URI =file:" + Application.dataPath + "/StreamingAssets/" + "Oficina.db;Version=3;Password=cualquierpass.";
 
         Debug.Log("Stablishing connection to: " + connection);
         dbcon = new SqliteConnection(connection);
